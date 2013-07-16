@@ -1,11 +1,11 @@
 <?php
 
-require 'Slim/Slim.php';
+require '_lib/Slim/Slim.php';
 \Slim\Slim::registerAutoloader();
-require 'Twig/Autoloader.php';
+require '_lib/Twig/Autoloader.php';
 Twig_Autoloader::register();
 
-require 'Slim/Views/Twig.php';
+require '_lib/Slim/Views/Twig.php';
 
 $app = new \Slim\Slim();
 
@@ -14,50 +14,50 @@ $app = new \Slim\Slim();
 //////////////////////////////////
 
 $app->get('/home',function () use ($app) {
-        $data = [
+        $data = array(
             'title'=>'Home',
             'static' => 'index'
-        ];
+        );
         $app->render('template.php',$data);
     });
 
 $app->get('/about',function () use ($app) {
-        $data = [
+        $data = array(
             'title'=>'About Us',
             'static' => 'about'
-        ];
+        );
         $app->render('template.php',$data);
     });
 
 $app->get('/portfolio',function () use ($app) {
-        $data = [
+        $data = array(
             'title'=>'Portfolio',
             'static' => 'portfolio'
-        ];
+        );
         $app->render('template.php',$data);
     });
 
 $app->get('/services',function () use ($app) {
-        $data = [
+        $data = array(
             'title'=>'Services',
             'static' => 'services'
-        ];
+        );
         $app->render('template.php',$data);
     });
 
 $app->get('/contact',function () use ($app) {
-        $data = [
+        $data = array(
             'title'=>'Contact Us',
             'static' => 'contact'
-        ];
+        );
         $app->render('template.php',$data);
     });
 
 $app->get('/',function () use ($app) {
-        $data = [
+        $data = array(
             'title'=>'Home',
             'static' => 'index'
-        ];
+        );
         $app->render('template.php',$data);
     });
 

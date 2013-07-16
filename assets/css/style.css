@@ -159,6 +159,7 @@ strong { font-weight: bold; }
 }
 
 .what-we-do .service {
+    padding-top: 23px;
     padding-bottom: 23px;
     background: #f8f8f8;
     border-bottom: 2px solid #428C9D;
@@ -285,7 +286,7 @@ strong { font-weight: bold; }
 
 .portfolio .work .icon-awesome a {
     display: inline-block;
-    padding: 5px 9px;
+    padding: 7px 9px;
     background: #428C9D; 
     color: #fff;
     -moz-border-radius: 19px;

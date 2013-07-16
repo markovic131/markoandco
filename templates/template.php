@@ -13,11 +13,10 @@
         <!-- CSS -->
         <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Ubuntu'>
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Domine">
-        <!-- <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"> -->
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
         <link rel="stylesheet" href="assets/prettyPhoto/css/prettyPhoto.css">
         <link rel="stylesheet" href="assets/css/flexslider.css">
-        <link rel="stylesheet" href="assets/css/font-awesome.css">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/style.css">
 
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -46,7 +45,7 @@
         <?php require '_incl/footer.php'; ?>
 
         <!-- Javascript -->
-        <script src="assets/js/jquery-1.8.2.min.js"></script>
+        <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
         <script src="assets/js/jquery.flexslider.js"></script>
         <script src="assets/js/jquery.tweet.js"></script>

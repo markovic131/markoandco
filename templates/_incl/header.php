@@ -17,16 +17,16 @@
                                 <a href="home"><i class="icon-home"></i><br />Home</a>
                             </li>
                             <li <?=($static == 'portfolio') ? 'class="current-page"' : '' ?>>
-                                <a href="portfolio"><i class="icon-camera"></i><br />Portfolio</a>
+                                <a href="home#portfolio"><i class="icon-camera"></i><br />Portfolio</a>
                             </li>
                             <li <?=($static == 'services') ? 'class="current-page"' : '' ?>>
-                                <a href="services"><i class="icon-tasks"></i><br />Services</a>
+                                <a href="home#services"><i class="icon-tasks"></i><br />Services</a>
                             </li>
                             <li <?=($static == 'about') ? 'class="current-page"' : '' ?>>
                                 <a href="about"><i class="icon-user"></i><br />About</a>
                             </li>
                             <li <?=($static == 'contact') ? 'class="current-page"' : '' ?>>
-                                <a href="contact"><i class="icon-envelope-alt"></i><br />Contact</a>
+                                <a href="home#contact"><i class="icon-envelope"></i><br />Contact</a>
                             </li>
                         </ul>
                     </div>
