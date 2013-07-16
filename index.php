@@ -1,6 +1,6 @@
 <?php
 
-require '../lib/Slim/Slim.php';
+require '_lib/Slim/Slim.php';
 \Slim\Slim::registerAutoloader();
 // require '../lib/Twig/Autoloader.php';
 // Twig_Autoloader::register();
@@ -8,7 +8,7 @@ require '../lib/Slim/Slim.php';
 // require '../lib/Slim/Views/Twig.php';
 
 $app = new \Slim\Slim(array(
-    'templates.path' => '../lib/templates'
+    'templates.path' => '_lib/templates'
     ));
 
 //////////////////////////////////

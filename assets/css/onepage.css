@@ -186,11 +186,11 @@ article .widget-area .widget { border-right: #e9e9e9 1px dashed; }
 	margin-top:0px;
 }
 
-.address { text-align: left; font-size: 18px; line-height: 25px; }
+/*.address { text-align: left; font-size: 18px; line-height: 25px; }
 .address p { margin: 25px 0; }
 .address form { margin: 30px 0 70px; }
-
-input[type=submit] {
+*/
+/*input[type=submit] {
 	font-size: 30px;
 	background: #3bc492;
 	color: #fff;
@@ -217,10 +217,10 @@ textarea {
 	padding: 18px;
 	width: 100%;
 	text-indent: 0;	
-}
-.textarea-container { margin: 0 18px; }
+}*/
+/*.textarea-container { margin: 0 18px; }
 .textarea-container textarea { margin-left: -18px; }
-#contact textarea { width: 100%; height: 100px; }
+#contact textarea { width: 100%; height: 100px; }*/
 
 
 
